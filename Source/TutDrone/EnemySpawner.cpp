@@ -19,7 +19,7 @@ AEnemySpawner::AEnemySpawner()
 
 }
 
-void AEnemySpawner::SpawnEnemy()
+void AEnemySpawner::SpawnEnemy() const
 {
     FVector Origin;
     FVector Extends;

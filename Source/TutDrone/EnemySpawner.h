@@ -23,7 +23,7 @@ public:
         float spawnSpan = 5.0f;
 
     UFUNCTION()
-        void SpawnEnemy();
+        void SpawnEnemy() const;
 
 protected:
 	// Called when the game starts or when spawned
